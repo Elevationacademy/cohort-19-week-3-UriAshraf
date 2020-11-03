@@ -1,0 +1,90 @@
+
+body{
+    margin: 0;
+    
+
+}
+
+#container{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns:  1fr  4fr ;
+    grid-template-rows: 15fr 1fr ;
+    grid-template-areas:
+    "s m"
+    "s i" ;
+
+
+}
+.side-nav{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr) ;
+    grid-area: s ;
+    background-color: #A379C9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+
+}
+
+.main{
+    grid-area: m ;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #F0EFF4;
+}
+.input{
+    grid-area: f ;
+    
+   
+         
+}
+
+
+
+.box name{
+    display: grid;
+    
+    text-align: start;
+    
+}
+.friend{
+    margin: 5px;
+    display: grid;
+    align-items: end;
+    background-color: #E4C1F9;
+    padding-left:10px ;
+    border-radius: 2px;
+    font-weight: lighter;
+    
+    
+}
+p.friends{
+    padding-left: 10px;
+    
+}
+
+.text-container.left{
+    height: 25px;  
+    background-color: gray;  
+      
+}
+
+.text-container.right{
+    
+        
+}
+p {
+    display: inline;
+    
+}
+
+p.text{
+    
+}
+
+p.time{
+    font-size: 10px;
+}
+
